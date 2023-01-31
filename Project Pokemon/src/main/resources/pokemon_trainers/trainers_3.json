@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Arc en'Ciel",
+    "age": "14",
+    "pokemons": [
+      {
+        "name": "Psyduck",
+        "hp": "43",
+        "hasSpecialAtt": "false",
+        "attack": "3",
+        "defence": "3",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "2",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "2",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "5"
+          }
+        ],
+        "items": [
+          {
+            "name": "vitamine",
+            "hp_bonus": "2",
+            "attack_bonus": "2",
+            "specialAtt_bonus": "2"
+          }
+        ]
+      },
+      {
+        "name": "Jigglypuff",
+        "hp": "34",
+        "hasSpecialAtt": "false",
+        "attack": "4",
+        "defence": "2",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "3",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "4"
+          }
+        ],
+        "items": [
+          {
+            "name": "vitamine",
+            "hp_bonus": "2",
+            "attack_bonus": "2",
+            "specialAtt_bonus": "2"
+          }
+        ]
+      },
+      {
+        "name": "Eevee",
+        "hp": "39",
+        "hasSpecialAtt": "true",
+        "attack": "4",
+        "defence": "3",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "5",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "3"
+          },
+          {
+            "damage": "3",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "3"
+          }
+        ],
+        "items": [
+          {
+            "name": "vitamine",
+            "hp_bonus": "2",
+            "attack_bonus": "2",
+            "specialAtt_bonus": "2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pain a L'ail",
+    "age": "16",
+    "pokemons": [
+      {
+        "name": "Pikachu",
+        "hp": "35",
+        "hasSpecialAtt": "true",
+        "attack": "4",
+        "defence": "2",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "6",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "true",
+            "cooldown": "5"
+          }
+        ],
+        "items": [
+          {
+            "name": "scut",
+            "defence_bonus": "2",
+            "specialDef_bonus": "2"
+          },
+          {
+            "name": "brad de craciun",
+            "attack_bonus": "3",
+            "defence_bonus": "1"
+          }
+        ]
+      },
+      {
+        "name": "Squirtle",
+        "hp": "60",
+        "hasSpecialAtt": "true",
+        "attack": "3",
+        "defence": "5",
+        "specialDefence": "5",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "3"
+          },
+          {
+            "damage": "2",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "2"
+          }
+        ],
+        "items": [
+          {
+            "name": "brad de craciun",
+            "attack_bonus": "3",
+            "defence_bonus": "1"
+          },
+          {
+            "name": "pelerina",
+            "specialDef_bonus": "3"
+          }
+        ]
+      },
+      {
+        "name": "Charmander",
+        "hp": "50",
+        "hasSpecialAtt": "false",
+        "attack": "4",
+        "defence": "3",
+        "specialDefence": "2",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "7",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "6"
+          }
+        ],
+        "items": [
+          {
+            "name": "sabiuta",
+            "attack_bonus": "3"
+          }
+        ]
+      }
+    ]
+  }
+]

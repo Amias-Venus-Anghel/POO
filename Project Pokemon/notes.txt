@@ -1,0 +1,22 @@
+Builder -> depinding on the event, daca in viitor vreau sa adaug un eveniment
+in care pokemonul arenei este o instanta mai puternica a acelei specii decat e
+normal va fi mult mai usor de construit o copie modificata
+
+Factory -> daca s-ar adauga mai multi pokemoni sau mai multe eventuri care sa
+rezulte variatii ale pokemonului arenei, nu vrem sa ne intereseze cum este
+instantiat.
+
+Singletone -> vrem sa existe un singur logger general care sa retina toate
+informatiile si sa avem mereu acces la acelasi logger, nu vrem sa retinem o
+parte a informatiei intr-un logger si alta in alt logger, ar aparea si problema
+de a pierde unul din ele si odata cu el si informatile notate.
+
+Observer -> poate sa apara cazul in care unul din pokemoni moare in cadrul unei
+batalii cu un pokemon neutru al arenei, in cazul asta vrem sa putem notifica
+adversarul si arena pentru a nu mai continua bataliile actuale si a sari peste
+duel (pokemonul inamic pierde instant)
+
+EventGenerator ->  mai usor de adaugat si gestionat noi evenimente decat daca
+ar fi fost inclus in clasa Arena
+
+src/main/resources/pokemon_trainers/trainers_1.json

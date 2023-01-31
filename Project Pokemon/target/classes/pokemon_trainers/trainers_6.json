@@ -1,0 +1,196 @@
+[
+  {
+    "name": "Andrei",
+    "age": "15",
+    "pokemons": [
+      {
+        "name": "Pikachu",
+        "hp": "35",
+        "hasSpecialAtt": "true",
+        "attack": "4",
+        "defence": "2",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "6",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "true",
+            "cooldown": "5"
+          }
+        ],
+        "items": [
+          {
+            "name": "bagheta magica",
+            "specialAtt_bonus": "3"
+          }
+        ]
+      },
+      {
+        "name": "Jigglypuff",
+        "hp": "34",
+        "hasSpecialAtt": "false",
+        "attack": "4",
+        "defence": "2",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "3",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "4"
+          }
+        ],
+        "items": [
+          {
+            "name": "pelerina",
+            "specialDef_bonus": "3"
+          }
+        ]
+      },
+      {
+        "name": "Charmander",
+        "hp": "50",
+        "hasSpecialAtt": "false",
+        "attack": "4",
+        "defence": "3",
+        "specialDefence": "2",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "7",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "6"
+          }
+        ],
+        "items": [
+          {
+            "name": "vitamine",
+            "hp_bonus": "2",
+            "attack_bonus": "2",
+            "specialAtt_bonus": "2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Copy Andrei",
+    "age": "13",
+    "pokemons": [
+      {
+        "name": "Pikachu",
+        "hp": "35",
+        "hasSpecialAtt": "true",
+        "attack": "4",
+        "defence": "2",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "6",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "true",
+            "cooldown": "5"
+          }
+        ],
+        "items": [
+          {
+            "name": "vesta",
+            "hp_bonus": "10"
+          },
+          {
+            "name": "vitamine",
+            "hp_bonus": "2",
+            "attack_bonus": "2",
+            "specialAtt_bonus": "2"
+          }
+        ]
+      },
+      {
+        "name": "Jigglypuff",
+        "hp": "34",
+        "hasSpecialAtt": "false",
+        "attack": "4",
+        "defence": "2",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "3",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "4"
+          }
+        ],
+        "items": [
+          {
+            "name": "brad de craciun",
+            "attack_bonus": "3",
+            "defence_bonus": "1"
+          }
+        ]
+      },
+      {
+        "name": "Charmander",
+        "hp": "50",
+        "hasSpecialAtt": "false",
+        "attack": "4",
+        "defence": "3",
+        "specialDefence": "2",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "7",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "6"
+          }
+        ],
+        "items": [
+          {
+            "name": "scut",
+            "defence_bonus": "2",
+            "specialDef_bonus": "2"
+          },
+          {
+            "name": "sabiuta",
+            "attack_bonus": "3"
+          }
+        ]
+      }
+    ]
+  }
+]

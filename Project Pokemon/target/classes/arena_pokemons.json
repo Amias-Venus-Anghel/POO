@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Neutrel1",
+    "hp": "10",
+    "hasSpecialAttack": "false",
+    "attack": "3",
+    "defence": "1",
+    "specialDefence": "1"
+  },
+  {
+    "name": "Neutrel2",
+    "hp": "20",
+    "hasSpecialAttack": "false",
+    "attack": "4",
+    "defence": "1",
+    "specialDefence": "1"
+  }
+]
