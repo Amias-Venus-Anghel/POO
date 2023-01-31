@@ -1,0 +1,221 @@
+[
+  {
+    "name": "Costel Piratu'",
+    "age": "16",
+    "pokemons": [
+      {
+        "name": "Charmander",
+        "hp": "50",
+        "hasSpecialAtt": "false",
+        "attack": "4",
+        "defence": "3",
+        "specialDefence": "2",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "7",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "6"
+          }
+        ],
+        "items": [
+          {
+            "name": "brad de craciun",
+            "attack_bonus": "3",
+            "defence_bonus": "1"
+          },
+          {
+            "name": "pelerina",
+            "specialDef_bonus": "3"
+          },
+          {
+            "name": "scut",
+            "defence_bonus": "2",
+            "specialDef_bonus": "2"
+          }
+        ]
+      },
+      {
+        "name": "Eevee",
+        "hp": "39",
+        "hasSpecialAtt": "true",
+        "attack": "4",
+        "defence": "3",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "5",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "3"
+          },
+          {
+            "damage": "3",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "3"
+          }
+        ],
+        "items": [
+          {
+            "name": "vitamine",
+            "hp_bonus": "2",
+            "attack_bonus": "2",
+            "specialAtt_bonus": "2"
+          },
+          {
+            "name": "pelerina",
+            "specialDef_bonus": "3"
+          }
+        ]
+      },
+      {
+        "name": "Meowth",
+        "hp": "41",
+        "hasSpecialAtt": "false",
+        "attack": "3",
+        "defence": "4",
+        "specialDefence": "2",
+        "abilities": [
+          {
+            "damage": "5",
+            "stun": "false",
+            "dodge": "true",
+            "cooldown": "4"
+          },
+          {
+            "damage": "1",
+            "stun": "false",
+            "dodge": "true",
+            "cooldown": "3"
+          }
+        ],
+        "items": [
+          {
+            "name": "brad de craciun",
+            "attack_bonus": "3",
+            "defence_bonus": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Just Alex",
+    "age": "18",
+    "pokemons": [
+      {
+        "name": "Squirtle",
+        "hp": "60",
+        "hasSpecialAtt": "true",
+        "attack": "3",
+        "defence": "5",
+        "specialDefence": "5",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "3"
+          },
+          {
+            "damage": "2",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "2"
+          }
+        ],
+        "items": [
+          {
+            "name": "vitamine",
+            "hp_bonus": "2",
+            "attack_bonus": "2",
+            "specialAtt_bonus": "2"
+          },
+          {
+            "name": "bagheta magica",
+            "specialAtt_bonus": "3"
+          }
+        ]
+      },
+      {
+        "name": "Snorlax",
+        "hp": "62",
+        "hasSpecialAtt": "false",
+        "attack": "3",
+        "defence": "6",
+        "specialDefence": "4",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "5"
+          },
+          {
+            "damage": "0",
+            "stun": "false",
+            "dodge": "true",
+            "cooldown": "5"
+          }
+        ],
+        "items": [
+          {
+            "name": "brad de craciun",
+            "attack_bonus": "3",
+            "defence_bonus": "1"
+          },
+          {
+            "name": "vitamine",
+            "hp_bonus": "2",
+            "attack_bonus": "2",
+            "specialAtt_bonus": "2"
+          }
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "hp": "43",
+        "hasSpecialAtt": "false",
+        "attack": "3",
+        "defence": "3",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "2",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "2",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "5"
+          }
+        ],
+        "items": [
+          {
+            "name": "pelerina",
+            "specialDef_bonus": "3"
+          },
+          {
+            "name": "sabiuta",
+            "attack_bonus": "3"
+          },
+          {
+            "name": "scut",
+            "defence_bonus": "2",
+            "specialDef_bonus": "2"
+          }
+        ]
+      }
+    ]
+  }
+]

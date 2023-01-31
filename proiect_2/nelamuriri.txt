@@ -1,0 +1,48 @@
+daca avem 2 antrnori, pot folosi simultan acelasi obiect pentru pokemonii lor?
+antrenorul a foloseste scut pentru un project_pokemon, si antrenorul b foloseste scut pt un project_pokemon
+
+cate evenimente se intampla intr-o aventura? 
+daca evnimentul ales aleator prima data este duelul, se termina aventura?
+daca unul din pokemoni moare intr-o lupta cu un project_pokemon neutru, aventura se incheie, este egalitate
+sau celalalt antrenor e considrat castigator chiar daca nu a avut loc duelul?
+pokemonii neutrii nu au statistici despre special atk si nu au abilitati?
+
+Bulbasaur HP 30 (37 - (5 - 2)),
+
+Batalia dintre cei 2 antrenori se realizeaza folosind threaduri. Dar batalia dintre un antrenor si
+un project_pokemon neutru?
+
+fiecare antrenor are de fiecare data doar 3 pokemoni, maxim 3 pokemoni sau un numar oarecare de pokemoni
+(deci trebuie implementat pentru un numar necunoscut de pokemoni, dar in teste folosim doar cate 3)
+
+cei 2 antrenori pot avea pokemoni comuni
+
+daca un antrenor ofera unui project_pokemon un item care da bonus pe attack special, iar pokemonul respectiv are doar
+atac normal, va avea si un atac special datorita bonusului sau bonusul este ignorat
+
+pentru loggare aventurii, trebuie sa avem ambele obtiuni simultan sau sa se poata alege una dintre ele?
+
+--------------
+
+Buna ziua! Am cateva nelamuriri/intrebari despre proiect:
+
+1. daca avem 2 antrenori, pot folosi simultan acelasi obiect pentru pokemonii lor?
+(antrenorul A foloseste scut pentru un project_pokemon, si antrenorul B foloseste scut pt un project_pokemon)
+2. cate evenimente se intampla intr-o aventura? 
+daca evnimentul ales aleator prima data este duelul, se termina aventura?
+3. daca unul din pokemoni moare intr-o lupta cu un project_pokemon neutru: aventura se incheie, este egalitate
+sau celalalt antrenor e considrat castigator chiar daca nu a avut loc duelul? sau are in continuare loc duelul doar
+ca pokemonul respectiv nu primeste bonusul la abilitati
+4. pokemonii neutrii nu au statistici despre special atk si nu au abilitati?
+5. In exemplul de duel dat avem la actiunea 3: Bulbasaur HP 30 (37 - (5 - 2)), acel 37 este o greseala de scriere sau
+ar reprezenta altceva? (din moment ce nu corespunde cu hp-ul anterior al lui bulbasaur care era 33)
+6. Batalia dintre cei 2 antrenori se realizeaza folosind threaduri. Dar batalia dintre un antrenor si un project_pokemon neutru?
+folosim threaduri si aici sau ramane la alegerea noastra?
+7. Fiecare antrenor are de fiecare data doar 3 pokemoni, maxim 3 pokemoni(adica 3 sau mai putin) sau un numar oarecare de pokemoni
+(deci trebuie implementat pentru un numar necunoscut de pokemoni, dar in teste folosim doar cate 3)
+8. Pot exista pokemoni comuni intre 2 antrenori? (adica fiecare detine cate un bulbasaur de exemplu, pokemoni diferiti)
+9. Daca un antrenor ofera unui project_pokemon un item care da bonus pe attack special, iar pokemonul respectiv are doar
+atac normal, va avea si un atac special datorita bonusului sau bonusul este ignorat? sau se intampla altceva?
+10. Pentru loggarea aventurii, trebuie sa avem ambele obtiuni simultan sau trebuie sa se poata alege una dintre ele?
+
+-----------

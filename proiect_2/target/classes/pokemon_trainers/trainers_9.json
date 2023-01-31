@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Darius",
+    "age": "21",
+    "pokemons": [
+      {
+        "name": "Psyduck",
+        "hp": "43",
+        "hasSpecialAtt": "false",
+        "attack": "3",
+        "defence": "3",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "2",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "2",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "5"
+          }
+        ],
+        "items": [
+          {
+            "name": "bagheta magica",
+            "specialAtt_bonus": "3"
+          },
+          {
+            "name": "pelerina",
+            "specialDef_bonus": "3"
+          }
+        ]
+      },
+      {
+        "name": "Pikachu",
+        "hp": "35",
+        "hasSpecialAtt": "true",
+        "attack": "4",
+        "defence": "2",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "6",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "true",
+            "cooldown": "5"
+          }
+        ],
+        "items": [
+          {
+            "name": "brad de craciun",
+            "attack_bonus": "3",
+            "defence_bonus": "1"
+          }
+        ]
+      },
+      {
+        "name": "Squirtle",
+        "hp": "60",
+        "hasSpecialAtt": "true",
+        "attack": "3",
+        "defence": "5",
+        "specialDefence": "5",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "3"
+          },
+          {
+            "damage": "2",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "2"
+          }
+        ],
+        "items": [
+          {
+            "name": "vesta",
+            "hp_bonus": "10"
+          },
+          {
+            "name": "vitamine",
+            "hp_bonus": "2",
+            "attack_bonus": "2",
+            "specialAtt_bonus": "2"
+          },
+          {
+            "name": "pelerina",
+            "specialDef_bonus": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Daria",
+    "age": "21",
+    "pokemons": [
+      {
+        "name": "Snorlax",
+        "hp": "62",
+        "hasSpecialAtt": "false",
+        "attack": "3",
+        "defence": "6",
+        "specialDefence": "4",
+        "abilities": [
+          {
+            "damage": "4",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "5"
+          },
+          {
+            "damage": "0",
+            "stun": "false",
+            "dodge": "true",
+            "cooldown": "5"
+          }
+        ],
+        "items": [
+          {
+            "name": "vesta",
+            "hp_bonus": "10"
+          },
+          {
+            "name": "bagheta magica",
+            "specialAtt_bonus": "3"
+          }
+        ]
+      },
+      {
+        "name": "Meowth",
+        "hp": "41",
+        "hasSpecialAtt": "false",
+        "attack": "3",
+        "defence": "4",
+        "specialDefence": "2",
+        "abilities": [
+          {
+            "damage": "5",
+            "stun": "false",
+            "dodge": "true",
+            "cooldown": "4"
+          },
+          {
+            "damage": "1",
+            "stun": "false",
+            "dodge": "true",
+            "cooldown": "3"
+          }
+        ],
+        "items": [
+          {
+            "name": "vitamine",
+            "hp_bonus": "2",
+            "attack_bonus": "2",
+            "specialAtt_bonus": "2"
+          },
+          {
+            "name": "brad de craciun",
+            "attack_bonus": "3",
+            "defence_bonus": "1"
+          }
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "hp": "43",
+        "hasSpecialAtt": "false",
+        "attack": "3",
+        "defence": "3",
+        "specialDefence": "3",
+        "abilities": [
+          {
+            "damage": "2",
+            "stun": "false",
+            "dodge": "false",
+            "cooldown": "4"
+          },
+          {
+            "damage": "2",
+            "stun": "true",
+            "dodge": "false",
+            "cooldown": "5"
+          }
+        ],
+        "items": [
+          {
+            "name": "scut",
+            "defence_bonus": "2",
+            "specialDef_bonus": "2"
+          },
+          {
+            "name": "sabiuta",
+            "attack_bonus": "3"
+          },
+          {
+            "name": "bagheta magica",
+            "specialAtt_bonus": "3"
+          }
+        ]
+      }
+    ]
+  }
+]

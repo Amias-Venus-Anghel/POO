@@ -1,0 +1,34 @@
+[
+  {
+    "name": "scut",
+    "defence_bonus": "2",
+    "specialDef_bonus": "2"
+  },
+  {
+    "name": "vesta",
+    "hp_bonus": "10"
+  },
+  {
+    "name": "sabiuta",
+    "attack_bonus": "3"
+  },
+  {
+    "name": "bagheta magica",
+    "specialAtt_bonus": "3"
+  },
+  {
+    "name": "vitamine",
+    "hp_bonus": "2",
+    "attack_bonus": "2",
+    "specialAtt_bonus": "2"
+  },
+  {
+    "name": "brad de craciun",
+    "attack_bonus": "3",
+    "defence_bonus": "1"
+  },
+  {
+    "name": "pelerina",
+    "specialDef_bonus": "3"
+  }
+]

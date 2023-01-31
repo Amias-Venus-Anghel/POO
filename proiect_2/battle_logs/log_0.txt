@@ -1,0 +1,228 @@
+Trainer Josh chooses Pikachu.
+	equiped: scut, vesta
+Trainer Mircea chooses Vulpix.
+	equiped: sabiuta, bagheta magica, vitamine
+
+Pokemon trainer Mircea is in an arena battle
+Vulpix's attributes: HP 38, Attack 10, Defence 2, Special Defence 4
+
+	Vulpix HP 38 VS Neutrel2 HP 20
+		1 Vulpix ability 2/Neutrel2 normal attack
+			a. Vulpix HP 36, (dodge), ability 2 cooldown 7
+			b. Neutrel2 HP 18
+		2 Vulpix ability 1/Neutrel2 nothing
+			a. Vulpix HP 36, ability 1 cooldown 6, ability 2 cooldown 6
+			b. Neutrel2 HP 10, (stuned)
+		3 Vulpix normal attack/Neutrel2 nothing
+			a. Vulpix HP 36, ability 1 cooldown 5, ability 2 cooldown 5
+			b. Neutrel2 HP 1
+		4 Vulpix normal attack/Neutrel2 normal attack
+			a. Vulpix HP 34, ability 1 cooldown 4, ability 2 cooldown 4
+			b. Neutrel2 HP 0
+	Vulpix WON
+Vulpix's attributes: HP 39, Attack 11, Defence 3, Special Defence 5
+
+Pokemon trainer Josh is in an arena battle
+Pikachu's attributes: HP 45, Special Attack 4, Defence 4, Special Defence 5
+
+	Pikachu HP 45 VS Neutrel2 HP 20
+		1 Pikachu ability 2/Neutrel2 normal attack
+			a. Pikachu HP 45, (dodge), ability 2 cooldown 5
+			b. Neutrel2 HP 16, (stuned)
+		2 Pikachu ability 1/Neutrel2 nothing
+			a. Pikachu HP 45, ability 1 cooldown 4, ability 2 cooldown 4
+			b. Neutrel2 HP 10
+		3 Pikachu special attack/Neutrel2 normal attack
+			a. Pikachu HP 45, ability 1 cooldown 3, ability 2 cooldown 3
+			b. Neutrel2 HP 7
+		4 Pikachu special attack/Neutrel2 normal attack
+			a. Pikachu HP 45, ability 1 cooldown 2, ability 2 cooldown 2
+			b. Neutrel2 HP 4
+		5 Pikachu special attack/Neutrel2 normal attack
+			a. Pikachu HP 45, ability 1 cooldown 1, ability 2 cooldown 1
+			b. Neutrel2 HP 1
+		6 Pikachu special attack/Neutrel2 normal attack
+			a. Pikachu HP 45
+			b. Neutrel2 HP 0
+	Pikachu WON
+Pikachu's attributes: HP 46, Special Attack 5, Defence 5, Special Defence 6
+
+Trainer Josh vs Trainer Mircea
+Pikachu's attributes: HP 46, Special Attack 5, Defence 5, Special Defence 6
+Vulpix's attributes: HP 39, Attack 11, Defence 3, Special Defence 5
+	Vulpix HP 39 VS Pikachu HP 46
+		1 Vulpix ability 2/Pikachu ability 2
+			a. Pikachu HP 44, (dodge), ability 2 cooldown 5
+			b. Vulpix HP 35, (stuned), (dodge), ability 2 cooldown 7
+		2 Pikachu nothing/Vulpix nothing
+			a. Vulpix HP 35, ability 2 cooldown 6
+			b. Pikachu HP 44, ability 2 cooldown 4
+		3 Vulpix ability 1/Pikachu ability 1
+			a. Pikachu HP 36, (stuned), ability 1 cooldown 4, ability 2 cooldown 3
+			b. Vulpix HP 29, ability 1 cooldown 6, ability 2 cooldown 5
+		4 Vulpix normal attack/Pikachu nothing
+			a. Pikachu HP 30, ability 1 cooldown 3, ability 2 cooldown 2
+			b. Vulpix HP 29, ability 1 cooldown 5, ability 2 cooldown 4
+		5 Pikachu special attack/Vulpix normal attack
+			a. Vulpix HP 29, ability 1 cooldown 4, ability 2 cooldown 3
+			b. Pikachu HP 24, ability 1 cooldown 2, ability 2 cooldown 1
+		6 Vulpix normal attack/Pikachu special attack
+			a. Vulpix HP 29, ability 1 cooldown 3, ability 2 cooldown 2
+			b. Pikachu HP 18, ability 1 cooldown 1
+		7 Pikachu special attack/Vulpix normal attack
+			a. Pikachu HP 12
+			b. Vulpix HP 29, ability 1 cooldown 2, ability 2 cooldown 1
+		8 Vulpix normal attack/Pikachu special attack
+			a. Vulpix HP 29, ability 1 cooldown 1
+			b. Pikachu HP 6
+		9 Pikachu ability 2/Vulpix normal attack
+			a. Pikachu HP 0, (dodge), ability 2 cooldown 5
+			b. Vulpix HP 25, (stuned)
+	Vulpix won
+Vulpix's attributes: HP 40, Attack 12, Defence 4, Special Defence 6
+TRAINER MIRCEA, 12 WINS THE BATTLE
+
+Trainer Josh chooses Bulbasaur.
+	equiped: scut, vesta
+Trainer Mircea chooses Eevee.
+	equiped: sabiuta, vitamine
+
+Trainer Josh vs Trainer Mircea
+Bulbasaur's attributes: HP 52, Special Attack 5, Defence 5, Special Defence 3
+Eevee's attributes: HP 41, Special Attack 6, Defence 3, Special Defence 3
+	Bulbasaur HP 52 VS Eevee HP 41
+		1 Eevee ability 2/Bulbasaur ability 2
+			a. Eevee HP 36, ability 2 cooldown 3
+			b. Bulbasaur HP 49, (stuned), ability 2 cooldown 3
+		2 Bulbasaur nothing/Eevee special attack
+			a. Eevee HP 36, ability 2 cooldown 2
+			b. Bulbasaur HP 46, ability 2 cooldown 2
+		3 Eevee special attack/Bulbasaur ability 1
+			a. Bulbasaur HP 43, ability 1 cooldown 4, ability 2 cooldown 1
+			b. Eevee HP 30, ability 2 cooldown 1
+		4 Eevee ability 1/Bulbasaur special attack
+			a. Eevee HP 28, ability 1 cooldown 3
+			b. Bulbasaur HP 38, ability 1 cooldown 3
+		5 Eevee ability 2/Bulbasaur special attack
+			a. Eevee HP 26, ability 1 cooldown 2, ability 2 cooldown 3
+			b. Bulbasaur HP 35, (stuned), ability 1 cooldown 2
+		6 Bulbasaur nothing/Eevee special attack
+			a. Bulbasaur HP 32, ability 1 cooldown 1
+			b. Eevee HP 26, ability 1 cooldown 1, ability 2 cooldown 2
+		7 Bulbasaur special attack/Eevee special attack
+			a. Eevee HP 24, ability 2 cooldown 1
+			b. Bulbasaur HP 29
+		8 Eevee ability 1/Bulbasaur ability 2
+			a. Eevee HP 19, ability 1 cooldown 3
+			b. Bulbasaur HP 24, ability 2 cooldown 3
+		9 Bulbasaur ability 1/Eevee special attack
+			a. Eevee HP 13, ability 1 cooldown 2
+			b. Bulbasaur HP 21, ability 1 cooldown 4, ability 2 cooldown 2
+		10 Bulbasaur special attack/Eevee ability 2
+			a. Eevee HP 11, ability 1 cooldown 1, ability 2 cooldown 3
+			b. Bulbasaur HP 18, (stuned), ability 1 cooldown 3, ability 2 cooldown 1
+		11 Eevee special attack/Bulbasaur nothing
+			a. Bulbasaur HP 15, ability 1 cooldown 2
+			b. Eevee HP 11, ability 2 cooldown 2
+		12 Eevee ability 1/Bulbasaur special attack
+			a. Bulbasaur HP 10, ability 1 cooldown 1
+			b. Eevee HP 9, ability 1 cooldown 3, ability 2 cooldown 1
+		13 Eevee special attack/Bulbasaur special attack
+			a. Bulbasaur HP 7
+			b. Eevee HP 7, ability 1 cooldown 2
+		14 Eevee ability 2/Bulbasaur special attack
+			a. Bulbasaur HP 4, (stuned)
+			b. Eevee HP 5, ability 1 cooldown 1, ability 2 cooldown 3
+		15 Bulbasaur nothing/Eevee special attack
+			a. Eevee HP 5, ability 2 cooldown 2
+			b. Bulbasaur HP 1
+		16 Bulbasaur ability 1/Eevee ability 1
+			a. Bulbasaur HP 0, ability 1 cooldown 4
+			b. Eevee HP 0, ability 1 cooldown 3, ability 2 cooldown 1
+Both pokemon fainted. There is no winner.
+
+Trainer Josh chooses Charmander.
+	equiped: vesta, sabiuta, bagheta magica
+Trainer Mircea chooses Jigglypuff.
+	equiped: none
+
+Trainer Josh vs Trainer Mircea
+Charmander's attributes: HP 60, Attack 7, Defence 3, Special Defence 2
+Jigglypuff's attributes: HP 34, Attack 4, Defence 2, Special Defence 3
+	Charmander HP 60 VS Jigglypuff HP 34
+		1 Jigglypuff ability 2/Charmander ability 1
+			a. Jigglypuff HP 30, (stuned), ability 2 cooldown 4
+			b. Charmander HP 57, (stuned), ability 1 cooldown 4
+		2 Charmander nothing/Jigglypuff nothing
+			a. Charmander HP 57, ability 1 cooldown 3
+			b. Jigglypuff HP 30, ability 2 cooldown 3
+		3 Charmander normal attack/Jigglypuff normal attack
+			a. Charmander HP 56, ability 1 cooldown 2
+			b. Jigglypuff HP 25, ability 2 cooldown 2
+		4 Jigglypuff normal attack/Charmander normal attack
+			a. Jigglypuff HP 20, ability 2 cooldown 1
+			b. Charmander HP 55, ability 1 cooldown 1
+		5 Charmander normal attack/Jigglypuff normal attack
+			a. Charmander HP 54
+			b. Jigglypuff HP 15
+		6 Charmander ability 2/Jigglypuff ability 1
+			a. Jigglypuff HP 8, ability 1 cooldown 4
+			b. Charmander HP 50, (stuned), ability 2 cooldown 6
+		7 Charmander nothing/Jigglypuff normal attack
+			a. Charmander HP 49, ability 2 cooldown 5
+			b. Jigglypuff HP 8, ability 1 cooldown 3
+		8 Charmander normal attack/Jigglypuff ability 2
+			a. Jigglypuff HP 3, ability 1 cooldown 2, ability 2 cooldown 4
+			b. Charmander HP 46, (stuned), ability 2 cooldown 4
+		9 Jigglypuff normal attack/Charmander nothing
+			a. Jigglypuff HP 3, ability 1 cooldown 1, ability 2 cooldown 3
+			b. Charmander HP 45, ability 2 cooldown 3
+		10 Jigglypuff normal attack/Charmander ability 1
+			a. Charmander HP 44, ability 1 cooldown 4, ability 2 cooldown 2
+			b. Jigglypuff HP 0, (stuned), ability 2 cooldown 2
+	Charmander won
+Charmander's attributes: HP 61, Attack 8, Defence 4, Special Defence 3
+TRAINER JOSH, 10 WINS THE BATTLE
+
+Traner Josh's best pokemon: Charmander
+Trainer Mircea's best pokemon: Vulpix
+Charmander's attributes: HP 61, Attack 8, Defence 4, Special Defence 3
+Vulpix's attributes: HP 40, Attack 12, Defence 4, Special Defence 6
+	Charmander HP 61 VS Vulpix HP 40
+		1 Vulpix ability 1/Charmander ability 1
+			a. Vulpix HP 36, (stuned), ability 1 cooldown 6
+			b. Charmander HP 53, (stuned), ability 1 cooldown 4
+		2 Charmander nothing/Vulpix nothing
+			a. Vulpix HP 36, ability 1 cooldown 5
+			b. Charmander HP 53, ability 1 cooldown 3
+		3 Charmander normal attack/Vulpix normal attack
+			a. Vulpix HP 32, ability 1 cooldown 4
+			b. Charmander HP 45, ability 1 cooldown 2
+		4 Vulpix normal attack/Charmander ability 2
+			a. Charmander HP 37, ability 1 cooldown 1, ability 2 cooldown 6
+			b. Vulpix HP 25, ability 1 cooldown 3
+		5 Charmander normal attack/Vulpix normal attack
+			a. Vulpix HP 21, ability 1 cooldown 2
+			b. Charmander HP 29, ability 2 cooldown 5
+		6 Charmander ability 1/Vulpix normal attack
+			a. Charmander HP 21, ability 1 cooldown 4, ability 2 cooldown 4
+			b. Vulpix HP 17, (stuned), ability 1 cooldown 1
+		7 Charmander normal attack/Vulpix nothing
+			a. Vulpix HP 13
+			b. Charmander HP 21, ability 1 cooldown 3, ability 2 cooldown 3
+		8 Vulpix ability 2/Charmander normal attack
+			a. Charmander HP 19, ability 1 cooldown 2, ability 2 cooldown 2
+			b. Vulpix HP 9, (dodge), ability 2 cooldown 7
+		9 Vulpix ability 1/Charmander nothing
+			a. Vulpix HP 9, ability 1 cooldown 6, ability 2 cooldown 6
+			b. Charmander HP 11, (stuned), ability 1 cooldown 1, ability 2 cooldown 1
+		10 Charmander nothing/Vulpix normal attack
+			a. Charmander HP 3
+			b. Vulpix HP 9, ability 1 cooldown 5, ability 2 cooldown 5
+		11 Charmander ability 2/Vulpix normal attack
+			a. Charmander HP 0, ability 2 cooldown 6
+			b. Vulpix HP 2, ability 1 cooldown 4, ability 2 cooldown 4
+	Vulpix won
+Vulpix's attributes: HP 41, Attack 13, Defence 5, Special Defence 7
+TRAINER MIRCEA, 12 WINS THE BATTLE
+
