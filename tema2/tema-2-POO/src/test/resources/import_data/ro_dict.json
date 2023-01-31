@@ -1,0 +1,94 @@
+[
+	{
+	"word": "pisică",
+	"word_en": "cat",
+	"type": "noun",
+	"singular": ["pisică"],
+	"plural": ["pisici"],
+	"definitions": [
+		{
+			"dict": "Dicționar de sinonime",
+			"dictType": "synonyms",
+			"year": 1998,
+			"text": ["mâță", "cotoroabă", "cătușă"]
+		},
+		{
+			"dict": "Dicționarul explicativ al limbii române, ediția a II-a",
+			"dictType": "definitions",
+			"year": 2002,
+			"text": ["Mamifer domestic carnivor din familia felinelor, cu corpul suplu, acoperit cu blană deasă și moale de diferite culori, cu capul rotund, cu botul foarte scurt, cu maxilarele puternice și cu ghearele retractile și ascuțite",
+			"Dispozitiv de agățare și de desprindere a berbecului din capătul cablului de ridicare de la sonetele cu cădere liberă",
+			"Mănunchi de sârme de oțel, folosit pentru curățarea de noroi sau de pământ a utilajelor de foraj"]
+		}
+		]
+	},
+	{
+	"word": "câine",
+	"word_en": "dog",
+	"type": "noun",
+	"singular": ["câine"],
+	"plural": ["câini"],
+	"definitions": [
+		{
+			"dict": "Dicționar de sinonime",
+			"dictType": "synonyms",
+			"year": 1998,
+			"text": ["lătrător", "molie", "dulău"]
+		},
+		{
+			"dict": "Dicționarul explicativ al limbii române (ediția a II-a revăzută și adăugită)",
+			"dictType": "definitions",
+			"year": 2009,
+			"text": ["Animal mamifer carnivor, domesticit, folosit pentru pază, vânătoare etc."]
+		},
+		{
+			"dict": "Dicționar universal al limbei române, ediția a VI-a)",
+			"dictType": "definitions",
+			"year": 1929,
+			"text": ["animal domestic din familia carnivorelor digitigrade",
+			"fig. (termen de dispreț) om rău (câinele fiind considerat ca tipul răutății): câinele de tată-său Pop",
+			"nume a două constelațiuni",
+			"Mold. (sens tehnic) masă de tras doage" ]
+		}
+		]
+	},
+	{
+	"word": "merge",
+	"word_en": "walk",
+	"type": "verb",
+	"singular": ["merg", "mergi", "merge"],
+	"plural": ["mergem", "mergeți", "merg"],
+	"definitions": [
+		{
+			"dict": "Dicționarul explicativ al limbii române (ediția a II-a revăzută și adăugită)",
+			"dictType": "definitions",
+			"year": 2009,
+			"text": ["A se mișca deplasându-se dintr-un loc în altul; a se deplasa, a umbla",
+			"A putea fi înghițit ușor; a aluneca pe gât"]
+		},
+		{
+			"dict": "Micul dicționar academic, ediția a II-a",
+			"dictType": "definitions",
+			"year": 2010,
+			"text": ["A se da peste cap",
+			"A preceda în spațiu",
+			"A frecventa cursurile unei instituții de învățământ"]
+		}
+		]
+	},
+	{
+		"word": "mânca",
+		"word_en": "eat",
+		"type": "verb",
+		"singular": ["mănânc", "mănânci", "mănâncă"],
+		"plural": ["mâncăm", "mâncați", "mănâncă"],
+		"definitions": [
+			{
+				"dict": "Dicționarul explicativ al limbii române (ediția a II-a revăzută și adăugită)",
+				"dictType": "definitions",
+				"year": 2009,
+				"text": ["A se hrăni"]
+			}
+		]
+	}
+]

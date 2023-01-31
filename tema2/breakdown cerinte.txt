@@ -1,0 +1,26 @@
+1) dictionar ro - en  
+1.0) traducere ro > en
+1.1) traducere en > ro
+1.2) adaugare entry
+1.3) stergere entry
+1.4) export json
+1.5) import json
+
+2) functionalitate extinsa (cuv, traducere, tip, sg, pl)
+2.0) traducere (return pl &/ sg )  -> obiect mesager: cuv, sg/pl, null,1,2,3
+2.1) export cu pastrarea ordinii pl/sg  
+2.2) ordonare dictionar
+// verb -> a *ceva* sau pers 3?
+
+3) no lg -> runtime exception
+
+
+Pentru traducerea propozitiei cu variante alternative, daca avem un verb si ii obtinem sinonimele, lasam indicativul (adia forma cu care apare in lista de sinonime) sau trebuie sa obtinem cumva forma la persoana respectiva(1/2/3)?
+La remove definition ni se cere stergerea uneia din structurile definition atribuite unui cuvant sau se cere stergerea uneia din componentele text continute de o structura definition atribuita cuvantului?
+Am observat ca nu se pot importa caracterele speciale caracteristice diferitelor limbi. Pentru simplitate as putea considera ca fisierele json nu vor contine diacritice sau ar trebui sa gasesc o modalitate de citire a lor.
+Tot legat de caracterele speciale, ele sunt teoretic citite, insa nu pot fi reprezentate la export, daca se da export la un dictionar importat anterior si acesta contine caractere speciale, in fisierul de export vor aparea simbolurile de caractere necunoscute. Daca functia de export creaza bine fisierul (contine cuvinterele ordonate alfabetic si definitiile dupa an) se accepta acest fisier de iesire sau trebuie gasita o modalitate de export cu diacritice? (ceea c presupun ca s-ar intampla daca se reuseste citirea lor)
+
+
+aux method find word -> dictionary
+maybe modifica niste parametrii ca sa fie useful si la mw build
+

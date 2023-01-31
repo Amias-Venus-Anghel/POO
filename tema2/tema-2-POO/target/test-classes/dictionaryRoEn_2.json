@@ -1,0 +1,16 @@
+[
+  {
+    "word": "caine",
+    "word_en": "dog",
+    "type": "noun",
+    "singular": ["caine"],
+    "plural": ["caini"]
+  },
+  {
+    "word": "merge",
+    "word_en": "walk",
+    "type": "verb",
+    "singular": ["merg", "mergi", "merge"],
+    "plural": ["mergem", "mergeti", "merg"]
+  }
+]

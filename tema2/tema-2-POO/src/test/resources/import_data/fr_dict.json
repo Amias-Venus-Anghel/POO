@@ -1,0 +1,72 @@
+[
+	{
+	"word": "chat",
+	"word_en": "cat",
+	"type": "noun",
+	"singular": ["chat"],
+	"plural": ["chats"],
+	"definitions": [
+		{
+			"dict": "Larousse",
+			"dictType": "synonyms",
+			"year": 2004,
+			"text": ["greffier", "mistigri", "matou", "minet"]
+		},
+		{
+			"dict": "Larousse",
+			"dictType": "definitions",
+			"year": 2000,
+			"text": ["Mammifère carnivore (félidé), sauvage ou domestique, au museau court et arrondi",
+			"Familier. Terme d'affection, de tendresse adressé à quelqu'un",
+			"Jeu d'enfants dans lequel un des joueurs, le chat, poursuit les autres et tente de les toucher"]
+		}
+		]
+	},
+	{
+	"word": "jeu",
+	"word_en": "game",
+	"type": "noun",
+	"singular": ["jeu"],
+	"plural": ["jeux"],
+	"definitions": [
+		{
+			"dict": "Larousse",
+			"dictType": "synonyms",
+			"year": 2000,
+			"text": ["amusement", "délassement", "distraction", "divertissement", "passe-temps", "récréation"]
+		},
+		{
+			"dict": "Larousse",
+			"dictType": "definitions",
+			"year": 2000,
+			"text": ["Activité d'ordre physique ou mental, non imposée, ne visant à aucune fin utilitaire, et à laquelle on s'adonne pour se divertir, en tirer un plaisir", 
+			"Activité de loisir soumise à des règles conventionnelles, comportant gagnant(s) et perdant(s) et où interviennent, de façon variable, les qualités physiques ou intellectuelles, l'adresse, l'habileté et le hasard",
+			"Ensemble des différents jeux de hasard, en particulier ceux où l'on risque de l'argent",
+			"Ensemble des règles qui régissent un divertissement organisé"]
+		}
+		]
+	},
+	{
+	"word": "manger",
+	"word_en": "eat",
+	"type": "verb",
+	"singular": ["mange", "manges", "mange"],
+	"plural": ["mangeons", "mangez", "mangent"],
+	"definitions": [
+		{
+			"dict": "Larousse",
+			"dictType": "synonyms",
+			"year": 2000,
+			"text": ["absorber", "becqueter", "bouffer", "boulotter", "briffer", "ingurgiter"]
+		},
+		{
+			"dict": "Larousse",
+			"dictType": "definitions",
+			"year": 2000,
+			"text": ["Porter quelque chose à sa bouche, le mâcher, le mâchonner, le ronger, le mordiller, etc. (sans généralement avaler)", 
+			"Entamer quelque chose, ronger, altérer", 
+			"En parlant d'un insecte, entamer quelque chose, une matière, y faire des trous"]
+		}
+		]
+	}
+]
