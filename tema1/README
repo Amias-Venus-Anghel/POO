@@ -1,0 +1,80 @@
+/* Tema 1 POO - Anghel Ionela Carmen */
+
+- Clase: Book, Author, Countries, EditorialGroup, Language, PublishingBrand, PublishingRetailer. IPublishingArtifact
+- Functiile de prelucrare cat si retinerea datelor au fost implementate in clasa BookSystem
+
+/* Book */
+
+- contine campurile mentionate cat si constructorii cu si fara parametrii, metoda de intoarcere a ID-ului, metoda de
+intoarcere a limbii
+- metoda addAuthor mareste dimensiunea vectorului de autori si adaga pe ultima pozitie nou autor primit ca argument
+- metoda details intoarce un string cu detaliile de publicare ale cartii, si primeste un nr 0 sau 1 pentru modificarea
+numarului de taburi ( pentru o afisare eleganta si vizibila); am ales implementarea separata a acestei functii datorita
+necesitatii de schimbare a tagurile <xml> si </xml> cu tagurile <book> si </book> in functie de metoda de publicare.
+- metoda publish apeleaza metoda details si adauga tagurile necesare, intorcand stringul rezultat
+
+/* Author */
+
+- contine campurile cerute si  contructorii cu si fara parametrii cat si metoda de returnarea a ID-ului
+- metoda toString returneaza numele autorului, este apelata pentru afisarea autorilor la publicarea unei carti
+
+/* Language & Countries */
+
+- contin campurile cerute si constructorii cu si fara parametri, metoda de returnare a ID-ului si metoda toString
+
+/* EditorialGroup & PublishingBrand */
+- contin campurile cerute, constructori cu si fara parametrii, metoda de returnare a ID-ului si metoda de returnare a
+listei de carti
+- contin metoda addBook de adaugare a unei cartii noi la vectorul de carti care mareste dimensiunea vectorului si adauga
+cartea primita ca parametru la finalul sau, identic cu addAuthor din clasa Book
+- contin medota Publish care returneaza stringul cerut, pentru fiecare carte din vectorul de carti se obtin detaliile si
+se afiseaza cu tagul <book>
+
+/* PublishingRetailer */
+
+- contine campurile cerute si constructorii cu si fara parametri, metoda de returnare a vectorului de artefacte
+- contine metoda addCountries care mareste dimensiunea vectorului de tari si adauga la final tara primita ca parametru,
+si metoda de returnare a vectorului de tari
+- contine metoda addPubArtifact care adauga un nou artifact la vector, proces similar ca addCountries
+
+/* BookSystem */
+
+- contine toate datele citite (cate un vector pentru fiecare categorie) cat si functile de prelucrare corespunzatoare
+- metoda readBooks  primeste ca parametru lista de limbi si citeste informatiile despre carti; se citeste mai intai
+headerul, apoi pentru fiecare linie detaliile sunt despartite in stringuri care sunt retinute in words[]; se identifica
+limba cartii si se apeleaza constructorul, iar vectorul de carti este marit; se returneaza vectorul de carti citit;
+- toate metodele de citire functioneaza similar cu readBooks: readAuthors, readLanguages (se apeleaza inainte de
+readBooks), readEditorialGroups, readPublishingBrand, readCountries, readPublishingRetailers
+- metoda linkBooksAuthors primeste vectorii de carti si autori si citeste legaturile pentru linkare; pentru fiecare id
+citit cauta cartea si autorul corespunzator apoi adauga autorul in lista de autori ai cartii respective
+- toate metodele de linkare functioneaza similar: linkEGroupsBooks, link PBrandsBooks, linkPRetailerCountries,
+linkPRetailerBrands
+- metoda getBooksForPublishingRetailerID primeste id-ul unui publishing retailer si intoare lista de carti a acestuia;
+se identifica retailer-ul cerut si se creeaza un vector gol de carti. pentru fiecare instanta de IPublishingArtifact se
+verifica tipul si se retine lista de carti din acesta (in cazul cartii, vectorul de cartii este compus dintr-un singur
+element, adica cartea respectiva); pentru fiecare carte din vectorul gasit se verifica daca exista deja in vectorul de
+returnat, daca nu exista se retine cartea; dupa parcurgerea tuturor elementelor se returneaza vectorul de carti unice
+gasite
+- metoda getsLanguagesForPublishingRetailerID primeste un id si returneaza lista de limbi corespunzatoare; se obtine
+lista de carti si se verifica pe rand; la gasirea unei limbi noi booleanul add ramane true si limba este adaugata in
+vectorul de returnat, altfel add devine false si limba nu este adaugata
+- metoda getCountriesForBookID primeste id-ul unei carti si intoarce un vector de tari in care apare; pentru fiecare
+retailer se parcug toate cartile sale, si ale grupurilor si brandurilor sale, si se apeleaza functia auxiliara de
+addCountries; daca intr-un retailer s-a identificat cartea respectiva, la vectorul de carti sunt adaugate toate limbile
+retailer-ului, si stopSearch devine true pentru a opri cautarea in retailer-ul respectiv (nu ne intereseaza daca cartea
+respectiva se mai gasete in el - ex: cartea este in lista de carti si in lista de carti al unuia din brandurile
+retaileru-lui); se returneaza vectorul de tari;
+- metoda getCommonBooksForRetailerID primeste id-urile pt 2 retaileri si returneaza un vector de carti comune;
+Se apeleaza metoda de getBooksForPublishingRetailer pentru fiecare id si se parcurg cei doi vectori; la gasirea unei
+carti comune aceasta se retine;
+- metoda getAllBooksForRetailersIDs primeste id-urile pentru 2 retaileri si intoarce lista tuturor cartilor unice dintre
+cei doi; similar cu metoda precedenta se parcug vectorii fiecaruia si la identificare unei carti neexistente in vectorul
+de carti, aceasta se adauga, altfel boolean-ul add devine false si cartea nu este adaugata;
+- metoda addCoutries este o metoda auxiliara pentru metoda getCountriesForBookID, primeste un retailer si un vectori de
+tari si returneaza un vector de tari; daca vectorul de tari este gol copiaza in el toate tarile retailer-ului, altfel
+parcurge lista de tari, pentru fiecare tara noua se mareste dimensiunea vectorului si se adauga in el;
+
+/* Main */
+- in main se initializeaza datele si se linkeaza informatiile, iar apoi se apeleaza functiile de testare
+- akm creeat o metoda statica auxiliara care trece prin cele 5 functii pentru un input dat (pentru modularizarea
+testarilor)
